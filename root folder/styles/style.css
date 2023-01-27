@@ -1,0 +1,80 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header{
+    background: url(../imagenes/design1_image1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: contain;
+    box-sizing: border-box;
+	
+}
+         .title1{
+            display: inline-block;
+            font-size: x-large;
+         } 
+
+
+
+.title2{
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    background-size: cover;
+}
+
+
+   .imagen-logo{
+        float: right;
+        position: relative;
+        max-width: 15%;
+        height: auto;
+        background: white;	  
+        border: 2px solid black;
+      }
+   
+.container{
+    display:block;
+}
+
+
+.barra-menu{
+  display: inline-block;
+}
+      
+
+     .upcoming-events{
+        display: inline-block;
+        
+ }
+
+         .imagen1{
+           width: 120%;
+           height: 120%;
+           display: block;
+           
+         }      
+
+.AboutMDHL{
+    display: inline-block;
+}
+
+         .imagen2{
+           width: 50%;
+           height: 50%;
+           display: block;
+        }
+
+.Contact{
+    display: inline-block;
+}        
+
+        .imagen3{
+            width: 50%;
+            height: 50%;
+            display: block;
+        }
