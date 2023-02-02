@@ -85,22 +85,27 @@ ul {
     text-decoration: underline;
     padding: 1rem 6rem;
   }
-
+/* Home */
   .upcoming {
+    display: grid;
+    justify-content: center;
     text-align: center;
     padding: 1rem 6rem;
   }
 
+  .p-upcoming{
+    font-size: xx-large;
+    padding: 1rem 6rem;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  /* contact */
   .correo{
     text-align: center;
     padding: 1rem 6rem;
   }
-
- /* .contact{
-    text-align: center;
-    padding: 1rem 6rem;
-  }
-*/
 
   .dato{
     color: blue;
@@ -212,7 +217,33 @@ ul {
 
   /*Rules*/
 
+  .listas{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 6rem;
+    line-height: 2rem;
+    
+  }
+
+  .title-rules{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    
+  }
   
+  .sub-title-rules{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:center;
+    font-weight: normal;
+    display: flex;
+  }
+
+  .text-rules{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: revert;
+  }
   
 
   
