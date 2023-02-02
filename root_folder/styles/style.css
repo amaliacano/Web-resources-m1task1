@@ -1,131 +1,139 @@
 *{
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-}
-
-         .imag-banner{ 
-            width: 100%;
-            margin: auto;
-            background-size: cover;
-            background-position: center;
-            box-sizing: content-box;
-            border: 2px solid white;
-            position: sticky;
-            display: block;
-         } 
-
-      h1{
-        font-size: 400%;
-        font-family: cursive;
-        background-size: cover;
-        display: inline;
-        position: absolute;
-        top: 10%;
-        left: 8%;
-      }
-
-.title{
-    display: inline;
     font-family: cursive;
-    font-size: x-large;
-    text-align: center;
-    color:antiquewhite;
-    background-size: cover;
-    left: 35%;
-    position: absolute;
-    top: 0%;
-    
 }
 
-   .logo{
-    position: relative;
-    box-sizing: content-box;
-    height: 50px;
-   }
+/*nuevos estilo */ 
+ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
-   .imagen-logo{
-    background: white;
+  nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  nav h1 {
+    color: black;
+  }
+  
+  nav a {
+    color: black;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    color:  #ff7235;
+    border-bottom: 2px solid  #ff7235;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+  }
+  
+  nav ul li {
+    font-weight: bold;
+  }
+  
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
+
+
+  .logo{
+    font-size: 3rem;
+    border: 0;
     display: inline;
-    position: absolute;
-    top: -90%;
-    right: 10%;
-    width: 150px;
-    border: 1px solid black;
-   }
+  }
 
-   .contenedor{
-    background: black;
-    display: inline-block;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    box-sizing: content-box;
-    width: 100%;
-    height: 60px;
-    padding: 5px;
-   }
+  .logo img{
+    display: flex;
+    background-color: white;
+    height: 90px;
+    width: 90px;
+  }
+  
+  .about {
+    padding: 1rem 6rem;
+  }
 
+  .upcoming {
+    text-align: center;
+    padding: 1rem 6rem;
+  }
+
+  .contact{
+    text-align: center;
+    padding: 1rem 6rem;
+  }
+   .correo:hover {
+    color:  #ff7235;
+    border-bottom: 2px solid  #ff7235;
     
-.container{
-    display:block;
-    position: relative;
-}
+   }
+  
+  .titulo-events{
+    padding: 1rem 6rem;
+  }
+  
+  .h2 {
+    margin-bottom:0.5rem;;
+    text-align: center;
+  }
+  
+  .p {
+    line-height: 1.7rem;
+    padding: 0.4rem;
+    text-align: center;
+  }
 
+  .imagen1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 68.75rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 11px;
+  }
 
-.barra-menu{
-  display: inline-block;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
+  .imagen2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 68.75rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 11px;
+  }
 
-     .articulo{
-        display: inline-block;
-        position: absolute;
-        top: 0%;
-        left: 50%;
-     }
-      
-
-     .upcoming-events{
-        display: inline-block;
-        
- }
-
-         .imagen1{
-           width: 300px;
-           display: block;
-           position: relative;
-           right: -70%;
-         }      
-
-.AboutMDHL{
-    display: inline-block;
-}
-
-         .imagen2{
-            width: 300px;
-            display: block;
-            position: relative;
-            right: -70%;
-        }
-
-.Contact{
-    display: inline-block;
-}        
-
-        .imagen3{
-            width: 300px;
-           display: block;
-           position: relative;
-           right: -70%;
-        }
-
-        p{
-            font-family: cursive;
-        }
-
-        h2{
-            font-family: cursive;
-        }
+  .imagen3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 68.75rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 11px;
+  }
