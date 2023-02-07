@@ -244,8 +244,48 @@ ul {
   }
 
 
+/*Registration*/ 
 
+.title-form{
+  text-align: center;
+  justify-content:center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  padding: 1rem 6rem;
+}
+
+.formulario{
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0 );
+  border-radius: 10px;
+  padding: 10px;
+  margin:0 auto;
+  width: 900px;
+  background-color: whitesmoke;
   
+}
+
+.form{
+  padding: 1rem 6rem;
+  border: 1px solid black;
+  gap: 1em;
+}
+  
+input.submit {
+  height: auto;
+  width: 10%;
+  
+}
+
+input{
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0 );
+}
 
   
     
