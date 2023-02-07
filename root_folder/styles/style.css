@@ -263,26 +263,59 @@ ul {
   padding: 10px;
   margin:0 auto;
   width: 900px;
-  background-color: whitesmoke;
+  background-color: rgb(248, 248, 200);
   
 }
 
+.datos-personales{
+  display: flex;
+  flex-direction: column;
+}
+
+.datos-personales2{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.datos-personales3{
+ justify-content: flex-start;
+  margin-top: 2%;
+}
+
+.datos-personales4{
+  
+  justify-content: flex-start;
+  margin-top: 2%;
+}
+
+.datos-escolares{
+  justify-content: flex-start;
+}
+
 .form{
+  
   padding: 1rem 6rem;
   border: 1px solid black;
   gap: 1em;
 }
   
 input.submit {
+  display: flex;
   height: auto;
   width: 10%;
-  
+}
+
+.boton{
+  display: flex;
+  justify-content: center;
 }
 
 input{
   outline: none;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(251, 251, 211);
   padding-left: 15px;
   box-shadow: 0 5px 10px -5px rgba(0, 0, 0 );
 }
