@@ -274,7 +274,7 @@ ul {
 
 .datos-personales2{
   display: flex;
-  justify-content: flex-start;
+  
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -291,11 +291,17 @@ ul {
 }
 
 .datos-escolares{
-  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
 }
 
-.form{
-  
+.position{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.form{ 
   padding: 1rem 6rem;
   border: 1px solid black;
   gap: 1em;
@@ -305,6 +311,11 @@ input.submit {
   display: flex;
   height: auto;
   width: 10%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(251, 251, 211);
+  padding-left: 15px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0 );
 }
 
 .boton{
@@ -312,13 +323,6 @@ input.submit {
   justify-content: center;
 }
 
-input{
-  outline: none;
-  border-radius: 5px;
-  border: 1px solid rgb(251, 251, 211);
-  padding-left: 15px;
-  box-shadow: 0 5px 10px -5px rgba(0, 0, 0 );
-}
 
   
     
